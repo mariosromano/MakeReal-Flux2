@@ -175,7 +175,7 @@ export default function App() {
           prompt: prompt,
           loras: [
             {
-              path: "https://v3b.fal.media/files/b/0a87e361/Tc4UZShpbQ9FmneXxjoc4_pytorch_lora_weights.safetensors",
+              path: "https://v3.fal.media/files/b/0a87e361/Tc4UZShpbQ9FmneXxjoc4_pytorch_lora_weights.safetensors",
               scale: 1
             }
           ],
