@@ -165,7 +165,7 @@ export default function App() {
     setImageUrl(null);
 
     try {
-      const response = await fetch("https://queue.fal.run/fal-ai/flux-lora", {
+      const response = await fetch("https://queue.fal.run/fal-ai/flux-2/lora", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -182,7 +182,7 @@ export default function App() {
           image_size: "landscape_16_9",
           num_images: 1,
           output_format: "jpeg",
-          guidance_scale: 3.5,
+          guidance_scale: 2.5,
           num_inference_steps: 28,
           enable_safety_checker: false
         })
