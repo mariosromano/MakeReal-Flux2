@@ -400,20 +400,7 @@ export default function App() {
               </section>
             )}
 
-            {/* Prompt Display */}
-            {generatedPrompt && (
-              <section>
-                <div className="flex items-center justify-between mb-2">
-                  <h2 className="text-xs uppercase tracking-wider text-stone-500">Prompt</h2>
-                  <button onClick={copyPrompt} className="text-xs text-amber-500 hover:text-amber-400">
-                    Copy
-                  </button>
-                </div>
-                <div className="p-3 bg-stone-900 border border-stone-800 rounded-lg">
-                  <p className="text-xs text-stone-400 leading-relaxed">{generatedPrompt}</p>
-                </div>
-              </section>
-            )}
+            
 
           </div>
 
